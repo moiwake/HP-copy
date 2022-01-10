@@ -30,7 +30,7 @@ body{
   display: none;
 }
 
-/* header サイズ共通 */
+/* header 各画面サイズ共通 */
 .header_logo{
     text-decoration: none;
     height: 20px;
@@ -171,7 +171,7 @@ body{
 
 
 
-/* hero,about 「大」・「中」サイズ */
+/* hero,about 画面「大」・「中」サイズ */
 .hero{
   padding: 100px 50px 28px 50px;
   max-width: 1140px;
@@ -309,7 +309,7 @@ body{
   font-weight: bold;
 }
 
-/* 「中」サイズabout */
+/* about　画面「中」サイズ */
 @media screen and (max-width:1080px){
   .about{
     display: flex;
@@ -445,6 +445,7 @@ body{
   margin: 0;
 }
 
+/* about 画面「小」*/ 
 .about{
   display: flex;
   align-items: center;
